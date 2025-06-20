@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="no-scroll">
+
+<head>
+    <meta charset="utf-8">
+    <title>NOA LUME Intro Animation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="NOA LUME Intro Animation"/>
+</head>
+
+
+<body>
+
+    <!-- Begin Animation Element-->
+        <!-- preserveAspectRatio="xMidYMid slice" to set 100vh 100vw without missing with the aspect ratio -->
+
+        <svg version="1.1" id="NL_intro_svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+        
+            <style type="text/css">
+
+                body {
+                    margin: 0;
+                }
+
+
+                #NL_intro_svg {
+                    width: 100%;
+                    height: 100vh;
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                    transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+                }
+
+                #NL_intro_svg.hide_intro {
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                }
+
+                .bg-st0{fill:#F1E5D7;}
+                .brown-st1{fill:#563C22;}
+                .line-st2{fill:none;stroke:#563C22;stroke-width:19;stroke-miterlimit:10;}
+            </style>
+        
+            <rect id="nl_bg" x="-3.2" y="-1.6" class="bg-st0" width="1924.7" height="1082.3"/>
+        
+            <path id="nl_O_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" d="M775.3,501.2c-4-3.5-8.8-6.2-14.3-8.2c-5.5-1.9-11.5-2.9-18-2.9
+                c-6.6,0-12.6,1-18.1,2.9c-5.5,2-10.2,4.7-14.3,8.2c-4,3.5-7.2,7.6-9.4,12.2c-2.2,4.6-3.3,9.6-3.3,14.9c0,5.3,1.1,10.3,3.3,14.9
+                c2.2,4.6,5.3,8.7,9.4,12.2c4,3.5,8.8,6.2,14.3,8.2c5.5,2,11.5,2.9,18.1,2.9c6.5,0,12.5-1,18-2.9c5.5-1.9,10.2-4.7,14.3-8.2
+                c4-3.5,7.2-7.6,9.4-12.2c2.2-4.6,3.4-9.6,3.4-14.9c0-5.3-1.1-10.3-3.4-14.9C782.5,508.7,779.3,504.7,775.3,501.2z M773.9,539
+                c-1.6,3.3-3.9,6.2-6.9,8.6c-3,2.4-6.5,4.4-10.5,5.7c-4,1.4-8.5,2.1-13.4,2.1s-9.4-0.7-13.5-2.1c-4.1-1.4-7.6-3.3-10.6-5.7
+                c-3-2.4-5.3-5.3-6.9-8.6s-2.4-6.9-2.4-10.7c0-3.8,0.8-7.4,2.4-10.7c1.6-3.3,3.9-6.2,6.9-8.6c3-2.4,6.5-4.4,10.6-5.7
+                c4.1-1.4,8.6-2.1,13.5-2.1s9.4,0.7,13.4,2.1c4,1.4,7.6,3.3,10.5,5.7c3,2.4,5.3,5.3,6.9,8.6c1.6,3.3,2.4,6.9,2.4,10.7
+                C776.4,532.2,775.6,535.7,773.9,539z"/>
+        
+            <path id="nl_A_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" d="M839.3,491.1L803,565.6h12.1l8.5-17.4h44.2l8.5,17.4h12.7l-36.2-74.5H839.3z
+                 M829,537.1l10.9-22.3c0.6-1.3,1.3-2.7,1.9-4c0.6-1.3,1.3-2.6,1.9-4c0.6-1.3,1.3-2.8,1.9-4.3c0-0.1,0.1-0.1,0.1-0.2
+                c0,0.1,0.1,0.1,0.1,0.2c0.6,1.4,1.2,2.8,1.8,4c0.6,1.3,1.2,2.6,1.9,3.8c0.6,1.3,1.3,2.6,1.9,3.9l11.1,22.8H829z"/>
+        
+            <path id="nl_U_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" d="M1106.5,529.5c0,4.9-1.2,9.3-3.5,13.1c-2.3,3.9-5.4,6.9-9.4,9.1
+                c-4,2.2-8.5,3.3-13.6,3.3c-4.8,0-9.2-1.1-13.1-3.3c-3.9-2.2-7.1-5.2-9.4-9.1c-2.3-3.9-3.5-8.2-3.5-13.1V491h-11.5v38.9
+                c0,6.9,1.6,13.2,4.7,18.6c3.1,5.5,7.5,9.8,13.1,12.9c5.6,3.2,12.2,4.7,19.7,4.7c7.5,0,14.1-1.6,19.7-4.7c5.6-3.2,10-7.5,13.1-12.9
+                c3.1-5.5,4.7-11.7,4.7-18.6V491h-11V529.5z"/>
+        
+            <path id="nl_M_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" d="M1191.7,530.6l-31.9-39.5h-11.3v74.5h11.5V534c0-5.9-0.1-11.4-0.4-16.6
+                c-0.2-2.9-0.4-5.9-0.8-8.9l29.4,35.8h7l29.4-35.8c-0.3,3-0.6,6-0.8,8.9c-0.3,5.2-0.4,10.7-0.4,16.6v31.6h11.5v-74.5h-11.3
+                L1191.7,530.6z"/>
+        
+            <polygon id="nl_E_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" points="1329,502.2 1329,491.1 1267.2,491.1 1267.2,565.6 1329,565.6 1329,554.5 
+                1278.7,554.5 1278.7,532.9 1323.2,532.9 1323.2,521.8 1278.7,521.8 1278.7,502.2 "/>
+        
+            <path id="nl_N_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" d="M922.6,492.4c0,4.5,0,9.1,0.1,14c0.1,4.9,0.2,9.8,0.4,14.9c0.2,5.1,0.4,10,0.7,15
+                c0.3,4.9,0.6,9.7,1.1,14.4c0.3,3.3,0.7,6.4,1.2,9.5L812.9,445.9h-21.6v141.6h21.8v-58.9c0-3.6-0.1-7.5-0.3-11.6
+                c-0.2-4.1-0.5-8.2-0.8-12.3c-0.3-4.1-0.7-8.1-1.1-12c-0.4-3.9-0.7-7.6-1-10.9c-0.2-2-0.3-3.7-0.5-5.3l113,111.1h22.1V445.9h-21.9
+                V492.4z"/>
+        
+            <polygon id="nl_L_letter" style="opacity: 0; visibility: hidden;" class="brown-st1" points="1034.1,445.9 1012.2,445.9 1012.2,587.5 1128.7,587.5 1128.7,566.5 
+                1034.1,566.5 "/>
+        
+            <line id="nl_LINE_path" style="opacity: 0; visibility: hidden;" class="line-st2" x1="791.3" y1="634.1" x2="1128.4" y2="634.1"/>
+        </svg>
+
+
+    <!-- End Animation Element -->
+
+    <!-- Begin JavaScript Files -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+    <!-- End JavaScript Files -->
+
+    <!-- Begin Animation JavaScript -->
+        <script type="text/javascript">
+            
+            (function () {
+
+
+                // GSAP Plugin Registeration
+                    gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
+
+                //  Variables
+                    const NL_intro_SVG_el = document.querySelector("#NL_intro_svg");
+
+                //  Set
+                    // gsap.set(atrium_gridlines_paths_els, { drawSVG: "0% 0%" });
+
+                    gsap.set(["#nl_LINE_path", "#nl_L_letter", "#nl_N_letter", "#nl_E_letter", "#nl_M_letter", "#nl_U_letter", "#nl_A_letter", "#nl_O_letter"], { 
+                        autoAlpha: 0, 
+                    });
+
+                    gsap.set(["#nl_L_letter", "#nl_N_letter"], { 
+                        y: 100, 
+                    });
+
+                    gsap.set("#nl_LINE_path", {
+                        drawSVG: "0% 0%" 
+                    });
+
+                    gsap.set(["#nl_E_letter", "#nl_M_letter", "#nl_U_letter", "#nl_A_letter", "#nl_O_letter"], { 
+                        y: 100, 
+                    });
+
+
+
+                //  Timeline
+                    const nL_intro_tl = gsap.timeline({ 
+                        repeat: -1,
+                        repeatDelay: 1,
+                        paused: true
+                    });
+
+                    nL_intro_tl.to(["#nl_L_letter", "#nl_N_letter"], {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: 1,
+                        ease: "power3.out",
+                        stagger: 0.1
+                    });
+
+                    nL_intro_tl.to("#nl_LINE_path", {
+                        drawSVG: "0% 100%",
+                        autoAlpha: 1,
+                        duration: 1,
+                        ease: "power3.out",
+                    }, "<=50%");
+
+                    nL_intro_tl.to("#nl_N_letter", {
+                        scale: 0.5,
+                        x: -190,
+                        y: 45,
+                        duration: 1,
+                        ease: "power3.out",
+                    });
+
+                    nL_intro_tl.to("#nl_L_letter", {
+                        scale: 0.5,
+                        x: -50,
+                        y: 45,
+                        duration: 1,
+                        ease: "power2.out",
+                    }, "<=0%");
+
+                    nL_intro_tl.to("#nl_LINE_path", {
+                        drawSVG: "0% 25%",
+                        x: -90,
+                        y: -45,
+                        strokeWidth: 15,
+                        duration: 1,
+                        ease: "power2.out",
+                    }, "<=0%");
+
+                    nL_intro_tl.to(["#nl_E_letter", "#nl_M_letter", "#nl_U_letter", "#nl_A_letter", "#nl_O_letter"], {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: 1,
+                        ease: "power2.out",
+                        stagger: 0.1
+                    }, "<=0%");
+
+                    nL_intro_tl.to(["#nl_LINE_path", "#nl_L_letter", "#nl_N_letter", "#nl_E_letter", "#nl_M_letter", "#nl_U_letter", "#nl_A_letter", "#nl_O_letter"], { 
+                        autoAlpha: 0,
+                        y: -300,
+                        duration: 1,
+                        ease: "power2.out",
+                        stagger: {
+                            each: 0.01,
+                        }
+                    });
+
+                    nL_intro_tl.call(() => {
+                        document.querySelector("#NL_intro_svg").classList.add("hide_intro");
+                    }, null, "-=0.9"); // 0.5 seconds into the 1-second animation
+
+                    nL_intro_tl.call(() => {
+                        document.querySelector("#NL_intro_svg").classList.remove("hide_intro");
+                    }, null,); // 0.5 seconds into the 1-second animation
+
+
+                //  ScrollTrigger
+                    ScrollTrigger.create({
+                        trigger: NL_intro_SVG_el,
+                        start: 'top 50%',
+                        end: 'bottom top',
+                        // markers: true,
+                        onEnter: (self) => {
+                            nL_intro_tl.play();
+                        }
+                    });
+
+
+            })();
+        </script>
+    <!-- End Animation JavaScript -->
+
+</body>
+
+
+</html>
